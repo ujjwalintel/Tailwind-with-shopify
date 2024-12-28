@@ -95,10 +95,44 @@ This will generate a minified CSS file ready to be linked to your Shopify theme.
 
 ---
 
+## Shopify Theme Commands
+
+Once your environment is set up and you've made changes to the theme, you can use the following Shopify commands for theme management:
+
+- **Share Theme**: Share your theme with others using the following command:
+  ```bash
+  shopify theme share
+  ```
+
+- **Upload Theme**: Push your local theme changes to the Shopify store:
+  ```bash
+  shopify theme push
+  ```
+
+- **Download Theme**: Download your Shopify store’s theme to your local machine:
+  ```bash
+  shopify theme pull
+  ```
+
+- **Run Theme Locally**: You can test the theme changes locally before pushing to Shopify:
+  
+  shopify theme dev --store {storename}
+
+- **Open Theme in Shopify Admin**: Open your store’s theme in the Shopify admin interface:
+  ```bash
+  shopify theme open
+  ```
+
+- **Deploy to Store**: After testing and customizing your theme, deploy it directly to the store:
+  ```bash
+  shopify theme deploy
+  ```
+
+---
+
 ## Additional Notes:
 - Once you've configured Tailwind and customized your theme, you can apply changes directly to your Shopify store via VSCode.
 - Keep in mind that Shopify has its own system for managing theme files, so you’ll need to upload the final CSS files after each update.
 
 ---
 
-Happy coding! 🚀
