@@ -116,7 +116,9 @@ Once your environment is set up and you've made changes to the theme, you can us
 
 - **Run Theme Locally**: You can test the theme changes locally before pushing to Shopify:
   
+   ```bash
   shopify theme dev --store {storename}
+   ```
 
 - **Open Theme in Shopify Admin**: Open your store’s theme in the Shopify admin interface:
   ```bash
